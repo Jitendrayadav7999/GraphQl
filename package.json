@@ -1,0 +1,23 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "Learn about  GraphQl and apollo client",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Jitendra",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "apollo-server-core": "^3.12.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
